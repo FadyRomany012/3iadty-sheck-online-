@@ -1,0 +1,16 @@
+.hospitals .name 
+{
+    background-color: beige;
+}
+
+.hospitals .hospital
+{
+    border: gray 1px solid;
+}
+
+.hospitals .hospital .details a
+{
+    color: darkgrey;
+    font-size: 24px;
+    text-decoration: none;
+}

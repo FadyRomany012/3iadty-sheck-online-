@@ -1,0 +1,378 @@
+
+
+<html>
+    <head>
+        
+	<!-- Theme style  -->
+
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+          <link rel="stylesheet" href="css/all.css">
+         <link rel="stylesheet" href="css/kero.css">
+
+        <link rel="stylesheet" href="css/index_stylenavkero.css"> 
+    </head>
+
+    <body>
+        <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light  py-3">
+<div class="container">
+        <div class="row">
+            <div class="col-4 pl-5">
+        <a class="navbar-brand logo " href="#"><img style="width: 70px; height: 50px;" src="images/Logo/logo1.png"    class="img-fluid"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    menu<span class="navbar-toggler-icon"></span>
+  </button>
+                </div>
+
+  <div class="collapse navbar-collapse  col-5" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto te text-uppercase">
+
+    
+         <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Health
+        </a>
+         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+             <div>
+          <a class="dropdown-item" href="#">Fitness</a>
+          <a class="dropdown-item" href="#">Teeth</a>
+          
+          <a class="dropdown-item" href="#">Beauty</a>
+                 </div>
+        </div>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Hospitals</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">medicines</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Diagnosis</a>
+      </li>
+      
+      
+      
+     
+     
+    </ul>
+    </div> 
+            <div class="clearfix"></div>
+           
+    </div>
+        
+        <header role="banner ">
+       
+
+        <nav class="main-nav ">
+                <!-- inser more links here -->
+      <lu>
+                <li ><a class="cd-signin  bg-dark " href="#0">Sign in</a></li>
+          <li class="float-right"><a class="cd-signup " href="#0">Sign up</a></li>
+        </lu>
+          </nav>
+    </header>
+
+    <div class="cd-user-modal"> <!-- this is the entire modal form, including the background -->
+        <div class="cd-user-modal-container"> <!-- this is the container wrapper -->
+            <ul class="cd-switcher">
+                <li><a href="#0">Sign in</a></li>
+                <li><a href="#0">New account</a></li>
+            </ul>
+
+            <div id="cd-login"> <!-- log in form -->
+                <form class="cd-form">
+                    <p class="fieldset">
+                        <label class="image-replace cd-email" for="signin-email">E-mail</label>
+                        <input class="full-width has-padding has-border" id="signin-email" type="email" placeholder="E-mail">
+                        <span class="cd-error-message">Error message here!</span>
+                    </p>
+
+                    <p class="fieldset">
+                        <label class="image-replace cd-password" for="signin-password">Password</label>
+                        <input class="full-width has-padding has-border" id="signin-password" type="text"  placeholder="Password">
+                        <a href="#0" class="hide-password">Hide</a>
+                        <span class="cd-error-message">Error message here!</span>
+                    </p>
+
+                    <p class="fieldset">
+                        <input type="checkbox" id="remember-me" checked>
+                        <label for="remember-me">Remember me</label>
+                    </p>
+
+                    <p class="fieldset">
+                        <input class="full-width" type="submit" value="Login">
+                    </p>
+                </form>
+                
+                <p class="cd-form-bottom-message"><a href="#0">Forgot your password?</a></p>
+                <!-- <a href="#0" class="cd-close-form">Close</a> -->
+            </div> <!-- cd-login -->
+
+            <div id="cd-signup"> <!-- sign up form -->
+                <form class="cd-form">
+                    <p class="fieldset">
+                        <label class="image-replace cd-username" for="signup-username">Username</label>
+                        <input class="full-width has-padding has-border" id="signup-username" type="text" placeholder="Username">
+                        <span class="cd-error-message">Error message here!</span>
+                    </p>
+
+                    <p class="fieldset">
+                        <label class="image-replace cd-email" for="signup-email">E-mail</label>
+                        <input class="full-width has-padding has-border" id="signup-email" type="email" placeholder="E-mail">
+                        <span class="cd-error-message">Error message here!</span>
+                    </p>
+
+                    <p class="fieldset">
+                        <label class="image-replace cd-password" for="signup-password">Password</label>
+                        <input class="full-width has-padding has-border" id="signup-password" type="text"  placeholder="Password">
+                        <a href="#0" class="hide-password">Hide</a>
+                        <span class="cd-error-message">Error message here!</span>
+                    </p>
+
+                    <p class="fieldset">
+                        <input type="checkbox" id="accept-terms">
+                        <label for="accept-terms">I agree to the <a href="#0">Terms</a></label>
+                    </p>
+
+                    <p class="fieldset">
+                        <input class="full-width has-padding" type="submit" value="Create account">
+                    </p>
+                </form>
+
+                <!-- <a href="#0" class="cd-close-form">Close</a> -->
+            </div> <!-- cd-signup -->
+
+            <div id="cd-reset-password"> <!-- reset password form -->
+                <p class="cd-form-message">Lost your password? Please enter your email address. You will receive a link to create a new password.</p>
+
+                <form class="cd-form">
+                    <p class="fieldset">
+                        <label class="image-replace cd-email" for="reset-email">E-mail</label>
+                        <input class="full-width has-padding has-border" id="reset-email" type="email" placeholder="E-mail">
+                        <span class="cd-error-message">Error message here!</span>
+                    </p>
+
+                    <p class="fieldset">
+                        <input class="full-width has-padding" type="submit" value="Reset password">
+                    </p>
+                </form>
+
+                <p class="cd-form-bottom-message"><a href="#0">Back to log-in</a></p>
+            </div> <!-- cd-reset-password -->
+            <a href="#0" class="cd-close-form">Close</a>
+        </div> <!-- cd-user-modal-container -->
+    </div> 
+        
+        </div>
+    
+</nav>
+        </header>
+        
+        <div class="home">
+            <div class="home-cover">
+                <div class="container">
+                    <div class="home-content d-flex align-items-center">
+                        <div>
+                            <h2><span class="text-white">Experience</span> The Best<br/> ----- Beauty Services</h2>
+                            <p class="text-white " >Struggling with chronic pain can rob you of your hope. We created Nura to restore it. Our physicians and pain specialists have pioneered Precision Pain Management to bring you lasting relief – so that you can rejoin life</p>
+                            <p  class="text-muted" id="demo"></p>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+                
+            
+        </div>
+        
+        
+        <div class="about my-4">
+            <div class="container">
+                <div class="row my-5" >
+                   
+                        
+                    <div class="col-md-6 col-sm-12">
+                        <div class="imagee">
+                        <img src="images/1000_1790e90bb0.jpg" class="img-fluid w-75">
+                            </div>
+            
+                    </div>  
+                    
+                        <div class="col-md-6 col-sm-12">
+                            
+                            <div class="desc bg-warning font-weight-bold w-25 ">Beauty Skin</div>
+                    
+                    
+                            <div class="descr my-5 ">
+
+                                <h2>training.</h2>
+
+                            <p>Be Proud. Before diving into the practical gym tips for beginners, remember that the     most important exercise catalyst is confidence</p>
+
+
+
+                    </div>
+                    
+                        </div>
+
+                       
+                        </div>
+                <div class="row my-5">
+            
+                    
+                    
+                        <div  class="col-md-6 col-sm-12">
+                    
+                    
+                            <div class="descr my-5 ">
+
+                                <h2>training.</h2>
+
+                            <p>Be Proud. Before diving into the practical gym tips for beginners, remember that the     most important exercise catalyst is confidence</p>
+
+
+
+                    </div>
+                    
+                        </div>
+                         <div class="col-md-6 col-sm-12">
+                        <div class="imagee">
+                        <img src="images/616202_womenw.jpg" class="img-fluid">
+                            </div>
+                             
+                             
+                       
+                        </div>
+                    </div>  
+                  <div class="row my-5">
+                   
+                        
+                    <div class="col-md-6 col-sm-12">
+                        <div class="imagee">
+                        <img src="images/616207_womenw.jpg" class="img-fluid">
+                            </div>
+            
+                    </div>  
+                    
+                        <div class="col-md-6 col-sm-12">
+                    
+                    
+                            <div class="descr my-5 ">
+
+                                <h2>training.</h2>
+
+                            <p>Be Proud. Before diving into the practical gym tips for beginners, remember that the     most important exercise catalyst is confidence</p>
+
+
+
+                    </div>
+                    
+                        </div>
+
+                       
+                        </div>
+                    </div>
+                    
+                    
+                    
+                   
+          
+        </div>
+        
+        
+        <div class="comment">
+            <div class="container">
+                
+            <h2 class="text-center">Add Comment</h2>
+                <div class="color w-25 m-auto"></div>
+                
+            </div>
+            
+            <div class="form-group w-75 m-auto">
+    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Write a comment" rows="3"></textarea>
+                <button class="float-right btn btn-dark" id="btn2">Add Comment</button>
+                <div class="clearfix"></div>
+  </div>
+            
+        <div class="my-3">  
+        
+            <div class="row" id="myRow">
+                
+            </div>
+        </div> 
+        
+        
+        </div>
+        
+        
+    
+
+        
+        
+        
+        
+<!-- Footer -->
+
+        
+                <!-- Footer -->
+<footer class="py-3">
+  <div class="container">
+    <ul class="list-unstyled list-inline text-center">
+      <li class="list-inline-item">
+        <a class="btn-floating btn-fb mx-1">
+          <i class="fab fa-facebook-f"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-tw mx-1">
+          <i class="fab fa-twitter"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-gplus mx-1">
+          <i class="fab fa-google-plus-g"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-li mx-1">
+          <i class="fab fa-linkedin-in"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-dribbble mx-1">
+          <i class="fab fa-dribbble"> </i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="footer-copyright text-center py-2">© 2019 Copyright: 3iadty</div>
+</footer>
+
+        
+        
+
+        
+
+
+
+
+
+        <script src="js/jquery-3.4.1.min.js"></script>    
+        <script src="js/popper.min.js"></script>    
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.easing.1.3.js"></script>
+        <script src="js/jquery.skitter.js"></script>
+        <script src="js/jquery.skitter.min.js"></script>
+        
+        
+        
+    
+        <script src="js/navkero.js"></script>
+        <script src="firstkero.js"></script>
+        
+        
+    </body>
+
+
+
+</html>

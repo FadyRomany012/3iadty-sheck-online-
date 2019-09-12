@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <link type="text/css" href="css/skitter.css" media="all" rel="stylesheet" />
+		<link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/all.min.css">
+		<link rel="stylesheet" href="css/check.css"/>
+        <link rel="stylesheet" href="css/index_style.css"/>
+	</head>
+    
+    <body>
+        
+        <header>
+            <div class="">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light  py-3">
+                <div class="container">
+                    <a class="navbar-brand logo" href="Home.html"><img style="width: 70px; height: 50px;" src="imgs/logo1.png" class="img-fluid"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto te text-uppercase">
+                          <li class="nav-item">
+                            <a class="nav-link" href="#advisor"> </a>
+                          </li>
+                         <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Health
+                            </a>
+                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                 <div>
+                              <a class="dropdown-item" href="#">Fitness</a>
+                              <a class="dropdown-item" href="#">Teeth</a>
+
+                              <a class="dropdown-item" href="#">Beauty</a>
+                                     </div>
+                            </div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Hospitals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">medicines</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Diagnosis</a>
+                        </li>
+                    </ul>
+                </div> 
+              </div>
+            </nav>
+            </div>
+        </header>
+        
+        <div id="form-main">
+  <div id="form-div">
+    <form class="form" id="form1">
+      
+      <p class="name">
+        <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+      </p>
+      
+      <p class="email">
+        <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+      </p>
+      
+      <p class="text">
+        <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="What do you feel?"></textarea>
+      </p>
+      
+      
+      <div class="submit">
+        <input type="submit" value="SEND" id="button-blue"/>
+        <div class="ease"></div>
+      </div>
+    </form>
+  </div>
+        </div>
+        
+        <script src="js/jquery-3.4.1.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+        <script src="js/home.js"></script>
+    </body>
+</html>

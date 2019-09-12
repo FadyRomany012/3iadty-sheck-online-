@@ -1,0 +1,309 @@
+<html>
+    <head>
+        <link type="text/css" href="css/skitter.css" media="all" rel="stylesheet" />
+		<link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/all.min.css">
+        	<link rel="stylesheet" href="css/style.css">
+
+		<link rel="stylesheet" href="css/index_style.css"/>
+        
+	</head>
+    
+    <body>
+        
+        <header>
+            <div class="">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light  py-3">
+                <div class="container">
+                    <a class="navbar-brand logo" href="#"><img style="width: 70px; height: 50px;" src="imgs/logo1.png" class="img-fluid"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto te text-uppercase">
+                          <li class="nav-item">
+                            <a class="nav-link" href="#advisor"> </a>
+                          </li>
+                         <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Health
+                            </a>
+                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                 <div>
+                              <a class="dropdown-item" href="Fitness.html">Fitness</a>
+                              <a class="dropdown-item" href="teeth.html">Teeth</a>
+
+                              <a class="dropdown-item" href="beauty.html">Beauty</a>
+                                     </div>
+                            </div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="hospitals.html">Hospitals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">medicines</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="check.html">Diagnosis</a>
+                        </li>
+                    </ul>
+                </div> 
+              </div>
+                   
+        <header role="banner ">
+       
+
+        <nav class="main-nav ">
+                <!-- inser more links here -->
+      <lu>
+                <li ><a class="cd-signin  bg-dark " href="#0">Sign in</a></li>
+          <li class="float-right"><a class="cd-signup " href="#0">Sign up</a></li>
+        </lu>
+          </nav>
+    </header>
+
+    <div class="cd-user-modal"> <!-- this is the entire modal form, including the background -->
+        <div class="cd-user-modal-container"> <!-- this is the container wrapper -->
+            <ul class="cd-switcher">
+                <li><a href="#0">Sign in</a></li>
+                <li><a href="#0">New account</a></li>
+            </ul>
+
+            <div id="cd-login"> <!-- log in form -->
+                <form class="cd-form">
+                    <p class="fieldset">
+                        <label class="image-replace cd-email" for="signin-email">E-mail</label>
+                        <input class="full-width has-padding has-border" id="signin-email" type="email" placeholder="E-mail">
+                        <span class="cd-error-message">Error message here!</span>
+                    </p>
+
+                    <p class="fieldset">
+                        <label class="image-replace cd-password" for="signin-password">Password</label>
+                        <input class="full-width has-padding has-border" id="signin-password" type="text"  placeholder="Password">
+                        <a href="#0" class="hide-password">Hide</a>
+                        <span class="cd-error-message">Error message here!</span>
+                    </p>
+
+                    <p class="fieldset">
+                        <input type="checkbox" id="remember-me" checked>
+                        <label for="remember-me">Remember me</label>
+                    </p>
+
+                    <p class="fieldset">
+                        <input class="full-width" type="submit" value="Login">
+                    </p>
+                </form>
+                
+                <p class="cd-form-bottom-message"><a href="#0">Forgot your password?</a></p>
+                <!-- <a href="#0" class="cd-close-form">Close</a> -->
+            </div> <!-- cd-login -->
+
+            <div id="cd-signup"> <!-- sign up form -->
+                <form class="cd-form">
+                    <p class="fieldset">
+                        <label class="image-replace cd-username" for="signup-username">Username</label>
+                        <input class="full-width has-padding has-border" id="signup-username" type="text" placeholder="Username">
+                        <span class="cd-error-message">Error message here!</span>
+                    </p>
+
+                    <p class="fieldset">
+                        <label class="image-replace cd-email" for="signup-email">E-mail</label>
+                        <input class="full-width has-padding has-border" id="signup-email" type="email" placeholder="E-mail">
+                        <span class="cd-error-message">Error message here!</span>
+                    </p>
+
+                    <p class="fieldset">
+                        <label class="image-replace cd-password" for="signup-password">Password</label>
+                        <input class="full-width has-padding has-border" id="signup-password" type="text"  placeholder="Password">
+                        <a href="#0" class="hide-password">Hide</a>
+                        <span class="cd-error-message">Error message here!</span>
+                    </p>
+
+                    <p class="fieldset">
+                        <input type="checkbox" id="accept-terms">
+                        <label for="accept-terms">I agree to the <a href="#0">Terms</a></label>
+                    </p>
+
+                    <p class="fieldset">
+                        <input class="full-width has-padding" type="submit" value="Create account">
+                    </p>
+                </form>
+
+                <!-- <a href="#0" class="cd-close-form">Close</a> -->
+            </div> <!-- cd-signup -->
+
+            <div id="cd-reset-password"> <!-- reset password form -->
+                <p class="cd-form-message">Lost your password? Please enter your email address. You will receive a link to create a new password.</p>
+
+                <form class="cd-form">
+                    <p class="fieldset">
+                        <label class="image-replace cd-email" for="reset-email">E-mail</label>
+                        <input class="full-width has-padding has-border" id="reset-email" type="email" placeholder="E-mail">
+                        <span class="cd-error-message">Error message here!</span>
+                    </p>
+
+                    <p class="fieldset">
+                        <input class="full-width has-padding" type="submit" value="Reset password">
+                    </p>
+                </form>
+
+                <p class="cd-form-bottom-message"><a href="#0">Back to log-in</a></p>
+            </div> <!-- cd-reset-password -->
+            <a href="#0" class="cd-close-form">Close</a>
+        </div> <!-- cd-user-modal-container -->
+    </div> 
+        
+            </nav>
+            </div>
+        </header>
+        <div class="clearfix"></div>
+        <section  class="carousel container-fluid py-1 ">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol  class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+                <div  class="carousel-inner">
+                    <div  class="carousel-item active">
+                            <div  class="items" >
+                                <img src="imgs/breathing.jpg" class="d-block W-100 img-fluid" alt="...">
+                            </div>
+                        <div class="content text-muted">
+                            <h5>Breathe. Deeply. Oxygen is vital for life. A full breath is one where your lungs are fully filled, your abdomen expands, and there’s minimum movement in your shoulders.</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                            <div class="items" >
+                                <img src="imgs/fruits.jpg" class="d-block w-100 img-fluid" alt="...">
+                            </div>
+                        <div class="content text-muted">
+                            <h5>Eat fruits. Fruits have a load of vitamins and minerals. Satisfy your palate with these nutritious fruits: Banana, Papaya, Kiwi, Strawberries, Blueberries, Blackberries, Raspberries, Watermelon, Rockmelon, Honeydew, Peach, Apple, Grapefruit, Pomelo, Mango, Orange.</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                             <div class="items" >
+                                <img src="imgs/plate-food.jpg" class="d-block w-100 img-fluid" alt="...">
+                            </div>
+                        <div class="content text-muted">
+                            <h5>Eat small meals. Choose several small meals over huge meals as it evens out your energy distribution. It’s also better for your stomach as it doesn’t over-stretch from digesting a huge volume of food at one go. In general, eat when you feel hungry and stop when you’re full</h5>
+                        </div>
+
+                    </div>
+
+                  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+            </div>
+        </section>
+        
+        	<section class="procedure_category section_gap">
+		<div class="container">
+			<div class="Title">
+				<div class="text-center py-4">
+					<h1>Health Care</h1>
+					<p>We Care for Your Health Every Moment.</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-3">
+					<div class="HealthCare">
+						<img src="imgs/undraw_doctor_kw5l.png" class="img-fluid" alt="Health">
+						<div class="details">
+							<div class="text">
+								<a href="hospitals.html">
+									<h5>Hospitals</h5>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="HealthCare">
+						<img src="imgs/111.jpg" class="img-fluid" alt="Health">
+						<div class="details">
+							<div class="text">
+								<a href="Fitness.html">
+                                    <h5>FITNESS</h5>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="HealthCare">
+						<img src="imgs/Capture3.jpg" class="img-fluid" alt="Health">
+						<div class="details">
+							<div class="text">
+								<a href="beauty.html">
+									<h5>Women Beauty</h5>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+                
+                <div class="col-lg-3">
+					<div class="HealthCare">
+						<img src="imgs/Capture4.jpg" class="img-fluid" alt="Health">
+						<div class="details">
+							<div class="text">
+								<a href="teeth.html">
+									<h5>Teeth Health</h5>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+        
+        <!-- Footer -->
+<footer class="py-3">
+  <div class="container">
+    <ul class="list-unstyled list-inline text-center">
+      <li class="list-inline-item">
+        <a class="btn-floating btn-fb mx-1">
+          <i class="fab fa-facebook-f"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-tw mx-1">
+          <i class="fab fa-twitter"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-gplus mx-1">
+          <i class="fab fa-google-plus-g"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-li mx-1">
+          <i class="fab fa-linkedin-in"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-dribbble mx-1">
+          <i class="fab fa-dribbble"> </i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="footer-copyright text-center py-2">© 2019 Copyright: 3iadty</div>
+</footer>
+        <script src="js/first.js"></script>
+
+        <script src="js/jquery-3.4.1.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+        <script src="js/home.js"></script>
+                <script src="js/first.js"></script>
+
+    </body>
+</html>
